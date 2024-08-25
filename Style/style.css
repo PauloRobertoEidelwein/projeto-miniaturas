@@ -13,6 +13,10 @@
     --fonte-android: 'Android', cursive;
 }
 
+body{
+    background-color: greenyellow;
+}
+
 header{
     min-height: 150px;
     text-align: center;
