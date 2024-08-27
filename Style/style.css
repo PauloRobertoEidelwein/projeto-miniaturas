@@ -1,20 +1,28 @@
 @charset "UTF-8";
 
+
+/*área de variáveis*/
 :root{
-    --cor0: #D8F0A0;
-    --cor1: #AAC864;
-    --cor2: #80A035;
-    --cor3: #5A7814;
-    --cor4: #385000;
-    --cor5:
+    --cor0: #00E6B7;
+    --cor1: #1FBB9C;
+    --cor2: #30917D;
+    --cor3: #33665C;
+    --cor4: #283C38;
+    --cor5: #2B3331;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
     --fonte-android: 'Android', cursive;
 }
 
+/*para todos, tirar as margens e paddings padrão*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
-    background-color: greenyellow;
+    background-color: var(--cor0);
 }
 
 header{
